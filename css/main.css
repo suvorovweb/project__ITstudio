@@ -1,0 +1,198 @@
+/* Обнуление */
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    padding: 0;
+    margin: 0;
+}
+
+ul,li {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+/* Конец обнуления */
+
+/* Свойства контейнера */
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.header {
+    background: url('/img/workspace.jpg') no-repeat center top / cover;
+    height: 900px;
+}
+
+.menu li .item__link {
+    color: white;
+    text-decoration: none;
+    line-height: 19,5px;
+    margin-right: 60px;
+    margin-bottom: 40px;
+}
+
+.menu li .item__link:hover {
+    color: black;
+}
+
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav {
+    padding-top: 40px;
+}
+
+/* Линия */
+
+
+.line {
+    width: 1170px;
+    opacity: 0.5;
+    margin-top: 20px
+}
+
+.offer {
+    text-align: center;
+}
+
+.offer p {
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19,5px;
+    margin-top: 242px;
+    margin-right: 40px;
+}
+
+.offer h1 {
+    color: white;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 64,43px;
+}
+
+.offer span {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.offer a {
+    text-decoration: none;
+    background-color: #4985FF;
+    border-radius: 30px;
+    color: white;
+    width: 200px;
+    height: 45px;
+    box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+    padding: 13px 36px 15px 36px;
+}
+
+.offer a:hover {
+    background-color: rgb(62, 157, 235);
+}
+
+.section__offer {
+    text-align: center;
+    margin-top: 110px;
+}
+
+.section__offer h2 {
+    color: black;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 52,66px;
+}
+
+.span {
+    display: block;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 52,66px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.section__offer span {
+    display: block;
+    margin-top: 7px;
+}
+
+.section__offer p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25,36px;
+    color: #999999;
+    margin-bottom: 70px;
+}
+
+.ellipse_1 {
+    transform: translate(104px, -10px);
+}
+
+.project {
+    transform: translate(168px, -33px);
+}
+
+.wrapper {
+    display: flex;
+}
+.wrapper h3 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21,94px;
+    
+}
+
+.wrapper p {
+    color: #999999;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+}
+
+.text__created {
+    margin-left: 17px;
+    margin-top: 50px;
+    margin-bottom: 65px;
+}
+
+.img__created2 {
+    text-align: center;
+}
+
+.img__created {
+    margin-left: 50px;
+}
+
+.created__btn {
+    text-decoration: none;
+    background-color: #4985FF;
+    border-radius: 30px;
+    color: white;
+    width: 200px;
+    height: 45px;
+    box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+    padding: 13px 36px 15px 36px;
+    text-align: center;
+    margin-left: 545px;
+}
+
+.created__btn:hover {
+    background-color: rgb(62, 157, 235);
+}
