@@ -30,7 +30,7 @@ ul,li {
 }
 
 .header {
-    background: url('/img/workspace.jpg') no-repeat center top / cover;
+    background: url('../img/workspace.jpg') no-repeat center top / cover;
     height: 900px;
 }
 
